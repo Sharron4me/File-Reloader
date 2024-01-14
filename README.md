@@ -5,7 +5,7 @@ The Reloader library provides a convenient way for users to automatically reload
 ## Installation
 
 ```bash
-pip install Reloader
+pip install -i https://test.pypi.org/simple/ reloader==0.1.0
 ```
 
 ## Usage
