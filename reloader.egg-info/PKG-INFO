@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: reloader
-Version: 0.1.4
+Version: 1.0.0
 Summary: reloader allows user program to reload automatically when source code of user program changes
 Author-email: Mohammad Ummair <mohdummair@gmail.com>
 License: BSD-3-Clause
@@ -24,13 +24,13 @@ pip install -i https://test.pypi.org/simple/ reloader
 1. Import the `reloader` module from the Reloader library.
 
    ```python
-   from Reloader import reloader
+   from reloader import Reloader
    ```
 
 2. Create an instance of the `Reloader` class.
 
    ```python
-   my_reloader = reloader.Reloader()
+   my_reloader = Reloader()
    ```
 
 3. Add the following code at the end of your program to enable automatic reloading.
