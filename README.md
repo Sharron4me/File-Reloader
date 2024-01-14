@@ -13,13 +13,13 @@ pip install -i https://test.pypi.org/simple/ reloader
 1. Import the `reloader` module from the Reloader library.
 
    ```python
-   from Reloader import reloader
+   from reloader import Reloader
    ```
 
 2. Create an instance of the `Reloader` class.
 
    ```python
-   my_reloader = reloader.Reloader()
+   my_reloader = Reloader()
    ```
 
 3. Add the following code at the end of your program to enable automatic reloading.
