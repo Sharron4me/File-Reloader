@@ -2,6 +2,11 @@
 
 The Reloader library provides a convenient way for users to automatically reload their Python programs whenever the source code changes. This can be particularly useful during development and testing phases.
 
+## Installation
+
+```pip install file-reloader```
+
+
 ## Usage
 
 1. Import the `reloader` module from the Reloader library.
