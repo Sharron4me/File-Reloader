@@ -4,7 +4,9 @@ The Reloader library provides a convenient way for users to automatically reload
 
 ## Installation
 
-```pip install file-reloader```
+```python
+pip install file-reloader
+```
 
 
 ## Usage
