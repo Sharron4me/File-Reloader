@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reloader"
+version = "0.1.0"
+description = "reloader allows user program to reload automatically when source code of user program changes"
+authors = [{name = "Mohammad Ummair", email = "mohdummair@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["reloader", "autoreload"]
+license = {text = "BSD-3-Clause"}
+dependencies = ["os", "time", "sys"]
+
+
+[project.scripts]
+my-script = "reloader:__init__"
