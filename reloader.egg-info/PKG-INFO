@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: reloader
+Version: 0.1.3
+Summary: reloader allows user program to reload automatically when source code of user program changes
+Author-email: Mohammad Ummair <mohdummair@gmail.com>
+License: BSD-3-Clause
+Keywords: reloader,autoreload
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: os
+Requires-Dist: time
+Requires-Dist: sys
+
 # AutoReload Library
 
 The Reloader library provides a convenient way for users to automatically reload their Python programs whenever the source code changes. This can be particularly useful during development and testing phases.
